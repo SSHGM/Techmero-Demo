@@ -26,3 +26,37 @@ body {
     transform: scale(1.1);
   }
 }
+.techmero-box {
+  /* Center the box */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* Make the box big */
+  width: 500px;
+  height: 200px;
+
+  /* Add a glowing effect */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+
+  /* Add some padding */
+  padding: 20px;
+
+  /* Display the Techmero and submit button inside the box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.techmero-heading {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.submit-button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
